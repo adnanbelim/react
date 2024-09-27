@@ -1,0 +1,51 @@
+.inputBox{
+    height: 45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+}
+
+.from-amt{
+    height: 100%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.from-amt .amt{
+    width: 60%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.currency-type{
+    height: 100%;
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.from-amt .from , .currency-type .currency{
+    font-size: 20px;
+    color: rgb(100, 98, 98);
+}
+
+.currency-type .currency , .currency-type .type {
+    align-self: flex-end;
+}
+.currency-type .type {
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(223, 217, 217);
+    padding: 5px;
+    border: none;
+    outline: none; 
+}
