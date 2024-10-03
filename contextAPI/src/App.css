@@ -1,0 +1,11 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.layout{
+    width: 50%;
+    display: block;
+    margin: 100px auto;
+    background-color: rgb(70, 60, 60);
+}

@@ -14,7 +14,7 @@ function Login() {
 
     }
     return (
-        <>
+        <div className='container'>
             <div>login</div>
             <input
                 value={username}
@@ -25,7 +25,7 @@ function Login() {
                 onChange={(e) => setPassword(e.target.value) }
                 type="text" placeholder='password' />
             <button onClick={HandleSubmit}>Submit</button>
-        </>
+        </div>
     )
 }
 
