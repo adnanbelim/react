@@ -1,13 +1,16 @@
 import React, { createContext, useContext } from "react";
 
 export const themeContext = createContext({
+    // variable and function create which we define in app.jsx and use it 
     themeMode: "light",
     dayMode: () => { },
     nightMode: () => { },
 })
 
+// wrap using provider
 export const ThemeContextProvider = themeContext.Provider;
 
+// use createContext
 export default function useTheme() {
     return useContext(themeContext);
 }
